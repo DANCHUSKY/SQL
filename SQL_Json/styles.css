@@ -1,0 +1,122 @@
+/* CSS Document */
+body {
+    font: 12px arial;
+    color: #222;
+    text-align: center;
+    padding: 35px;
+    background-image: url(fons2.png);
+}
+
+form, p, span {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    font: 13px arial;
+}
+
+#wrapper, #loginform {
+    background: #EBF4FB;
+    border: 10px ridge cadetblue;
+    box-shadow: 3px 3px 7px grey;
+    border-radius: 9px;
+    opacity: 0.7;
+}
+
+#wrapper {
+    margin: 0 auto;
+    margin-top: 60px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    width: 850px;
+    height: auto;
+}
+
+#loginform {
+    margin: 0 auto;
+    margin-top: 60px;
+    padding-bottom: 25px;
+    width: 504px;
+    padding-top: 18px;
+}
+
+strong {
+    color: grey;
+    letter-spacing: 2px;
+}
+
+#nom {
+    text-align: left;
+    font-weight: bold;
+}
+
+#loginform p {
+    margin: 5px;
+}
+
+#submitmsg, #submit, #name, #pass, #enter, #exit {
+    box-shadow: 3px 3px 7px grey;
+    border-radius: 4px;
+    border: 1px solid aqua;
+}
+
+#submit {
+    width: 60px;
+}
+
+.error {
+    color: #ff0000;
+}
+
+#menu {
+    padding: 12.5px 25px 12.5px 25px;
+}
+
+.welcome {
+    float: left;
+}
+
+.logout {
+    float: right;
+}
+
+#enter, #exit {
+    text-align: center;
+    font-weight: bold;
+    color: darkslategrey;
+}
+
+#exit {
+    width: 100px;
+    margin-right: 380px;
+}
+
+table {
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+thead {
+    border-bottom: 2px solid;
+    background-color: red;
+}
+
+th, td {
+    padding: 5px;
+    align: center;
+    border: 1px solid;
+}
+
+caption {
+    background-color: oldlace;
+    border-top: 1px solid;
+    padding: 5px;
+}
+
+.divider {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}

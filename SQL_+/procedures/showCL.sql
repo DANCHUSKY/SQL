@@ -1,0 +1,5 @@
+CREATE PROCEDURE `showCL`()
+BEGIN
+    
+    SELECT * FROM CL;
+END//
